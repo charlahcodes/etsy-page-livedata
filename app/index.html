@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>whiskey - Etsy</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="header">
+    <ul class="topLeftText">
+      <li class="logo">Etsy</li>
+      <li>
+        <div class="search">
+          <input type="search">
+          <div class="searchButton">Search</div>
+        </div>
+      </li>
+    </ul>
+    <div class="topRightText">
+      <ul class="topLinks">
+        <li><div><a href="#">Sell on Etsy</a></div></li>
+        <li><div><a href="#">Register</a></div></li>
+        <li><div class="signIn">Sign in</div></li>
+      </ul>
+      <ul class="cartContainer">
+        <li><div class="cart"><div class="cartText">Cart</div></div></li>
+      </ul>
+    </div>
+  </div>
+  <div class="topMenu">
+    <ul>
+      <li>Clothing & Accessories </li>
+      <li>Jewelry</li>
+      <li>Craft Supplies & Tools</li>
+      <li>Weddings</li>
+      <li>Entertainment</li>
+      <li>Home & Living</li>
+      <li>Kids & Baby</li>
+      <li>Vintage</li>
+    </ul>
+  </div>
+  <div class="mainBody">
+
+    <div class="leftSideBody">
+      <div class="showResults">Show results for:</div>
+      <div class="categories">
+        <p>All categories</p>
+        <ul>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Art & Collectibles</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Jewelry</a></li>
+          <li><a href="#">Paper & Party Supplies</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Craft Supplies & Tools</a></li>
+          <li><a href="#">Bags & Purses</a></li>
+          <li><a href="#">Bath & Beauty</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Books, Movies & Music</a></li>
+          <li><a href="#">Electronics & Accessories</a></li>
+          <li><a href="#">Toys & Games</a></li>
+          <li><a href="#">Pet Supplies</a></li>
+        </ul>
+      </div>
+      <div class="refine">Refine your search</div>
+      <div class="refineOptions">
+        <p>Item Type</p>
+        <ul>
+          <li><input type="radio" name="myRadio"><a href="#">All Items</a></li>
+          <li><input type="radio" name="myRadio"><a href="#">Handmade</a></li>
+          <li><input type="radio" name="myRadio"><a href="#">Vintage</a></li>
+        </ul>
+        <div class="line"></div>
+        <p>Price</p>
+        <div class="priceInputs">
+          <input class="lowPrice" placeholder="Low"> to <input class="highPrice" placeholder="High"><div class="arrowBox"><div>></div></div>
+        </div>
+        <div class="line"></div>
+        <p>Filter by Color</p>
+        <div class="colors">
+          <div class="red"></div>
+          <div class="orange"></div>
+          <div class="yellow"></div>
+          <div class="green"></div>
+          <div class="blue"></div>
+          <div class="purple"></div>
+          <div class="black"></div>
+          <div class="white"></div>
+        </div>
+        <div class="line"></div>
+        <p>Ordering Options</p>
+        <ul>
+          <li><input type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></li>
+          <li><input type="checkbox"><a href="#">Customizable</a></li>
+          <li><a href="#">Choose a custom location</a></li>
+        </ul>
+        <div class="line"></div>
+        <p>Ship To</p>
+        <div class="select"><p>United States</p></div>
+      </div>
+    </div>
+
+    <div class="rightSideBody">
+      <div class="categoriesInResults"><a href="#">All Categories</a> > <b>"whiskey"</b> (25,479 Results)</div>
+      <div class="sortBy">Sort by:  <a href="#">Relevancy</a></div>
+      <div class="resultsContainer">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>Related to <b>whiskey</b></p>
+    <div class="relatedItems">
+      <table>
+        <tr>
+          <td><a href="#">whiskey barrel</a></td>
+          <td><a href="#">bourbon</a></td>
+          <td><a href="#">cigar</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">whiskey decanter</a></td>
+          <td><a href="#">scotch</a></td>
+          <td><a href="#">flask</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">whiskey stones</a></td>
+          <td><a href="#">whiskey bottle</a></td>
+        </tr>
+        <tr>
+          <td><a href="#">jack daniels</a></td>
+          <td><a href="#">beer</a></td>
+        </tr> 
+      </table>
+    </div>
+
+    <p>Looking for shops? <a href="#">whiskeynweddingbells</a>, <a href="#">WhiskeyDogWares</a>, <a href="#">WhiskeysWhims</a>. <a href="#">See more.</a></p>
+
+    <div class="pageButtons">
+      <div class="leftArrowButton"><p class="test"><</p></div>
+      <div class="currentNumberButton"><p>1</p></div>
+      <div class="numberButton"><p>2</p></div>
+      <div class="numberButton"><p>3</p></div>
+      <div class="numberButton"><p>4</p></div>
+      <div class="numberButton"><p>5</p></div>
+      <div class="numberButton"><p>6</p></div>
+      <div class="numberButton"><p>7</p></div>
+      <div class="numberButton"><p>8</p></div>
+      <div class="elButton"><p>...</p></div>
+      <div class="totalNumberButton"><p>241</p></div>
+      <div class="rightArrowButton"><p>></p></div>
+    </div>
+  </div>
+ 
+  <script type="text/template" id="itemTemplate">
+    <div class="resultsCard">
+      <a href = "<%= url %>"><div class="productImages">
+        
+        <div class ="icons"> 
+          <div class="heartIcon"><img src="images/heart.png"></div>
+          <div class="hamburger"><img src="images/hamburger.png"></div>
+        </div>
+
+       <img class="mainProductImage" src="<%= Images[0].url_570xN %>">
+      </div></a>
+
+      <div class = "cardText">
+        <ul>
+          <li><a href = "<%= url %>"><div class="cardTitle"><%= title %></div></a></li>
+          <li><a href="#"><div class="shopName"><%= Shop.shop_name %></div></a></li>
+          <li><div class="cardPrice">$<%= price %></div></li>
+        </ul>
+      </div>
+    </div>
+  </script>
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
