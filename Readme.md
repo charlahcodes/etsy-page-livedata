@@ -1,3 +1,3 @@
-## This is a Readme
+## Etsy Page
 
-> You should probably update me.
+> Re-create an Etsy page with JQuery/Underscore/etc.  This time with live data.
